@@ -55,5 +55,5 @@ app.delete('/items', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log(chalk.green(`listmaker-server listening on port ${port}`))
+    console.log(chalk.green(`listmaker-node listening on port ${port}`))
 })
