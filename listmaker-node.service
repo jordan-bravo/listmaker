@@ -3,7 +3,7 @@ Description=The backend for a Node/Express CRUD app for making lists, such as to
 
 [Service]
 Type=simple
-ExecStart=%h/.asdf/shims/node %h/Apps/listmaker-node/build/index.js
+ExecStart=%h/.asdf/shims/node %h/apps/listmaker-node/build/index.js
 Restart=on-failure
 
 [Install]
